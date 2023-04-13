@@ -26,7 +26,7 @@ server.listen(8080, () => {
 
 mongoose.set("strictQuery", false);
 const MONGO_URL =
-  "mongodb+srv://root:123456qqq@cluster0.0mvir51.mongodb.net/?retryWrites=true&w=majority"; // DB URI
+  ""; // DB URI
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
